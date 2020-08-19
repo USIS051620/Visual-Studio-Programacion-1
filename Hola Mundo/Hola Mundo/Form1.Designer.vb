@@ -39,7 +39,7 @@ Partial Class Form1
         '
         'btnConvertir
         '
-        Me.btnConvertir.Location = New System.Drawing.Point(32, 224)
+        Me.btnConvertir.Location = New System.Drawing.Point(168, 283)
         Me.btnConvertir.Name = "btnConvertir"
         Me.btnConvertir.Size = New System.Drawing.Size(75, 23)
         Me.btnConvertir.TabIndex = 0
@@ -48,23 +48,20 @@ Partial Class Form1
         '
         'cbxEntrada
         '
-        Me.cbxEntrada.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple
-        Me.cbxEntrada.FormattingEnabled = True
         Me.cbxEntrada.Items.AddRange(New Object() {"Bits", "Bytes", "Gigabits", "Gigabytes", "Kilobits", "Kilobytes", "Megabits", "Megabytes", "Petabits", "Petabytes"})
-        Me.cbxEntrada.Location = New System.Drawing.Point(606, 126)
+        Me.cbxEntrada.Location = New System.Drawing.Point(595, 38)
         Me.cbxEntrada.Name = "cbxEntrada"
-        Me.cbxEntrada.Size = New System.Drawing.Size(121, 21)
+        Me.cbxEntrada.Size = New System.Drawing.Size(132, 21)
         Me.cbxEntrada.TabIndex = 1
         Me.cbxEntrada.Text = "Almacenamiento"
         '
         'cbxSalida
         '
-        Me.cbxSalida.DropDownStyle = System.Windows.Forms.ComboBoxStyle.Simple
         Me.cbxSalida.FormattingEnabled = True
         Me.cbxSalida.Items.AddRange(New Object() {"Bits", "Bytes", "Gigabits", "Gigabytes", "Kilobits", "Kilobytes", "Megabits", "Megabytes", "Petabits", "Petabytes"})
-        Me.cbxSalida.Location = New System.Drawing.Point(606, 186)
+        Me.cbxSalida.Location = New System.Drawing.Point(595, 94)
         Me.cbxSalida.Name = "cbxSalida"
-        Me.cbxSalida.Size = New System.Drawing.Size(121, 21)
+        Me.cbxSalida.Size = New System.Drawing.Size(132, 21)
         Me.cbxSalida.TabIndex = 2
         '
         'lblvalor
@@ -86,7 +83,7 @@ Partial Class Form1
         'lblDe
         '
         Me.lblDe.AutoSize = True
-        Me.lblDe.Location = New System.Drawing.Point(173, 70)
+        Me.lblDe.Location = New System.Drawing.Point(219, 38)
         Me.lblDe.Name = "lblDe"
         Me.lblDe.Size = New System.Drawing.Size(24, 13)
         Me.lblDe.TabIndex = 6
@@ -95,7 +92,7 @@ Partial Class Form1
         'lblA
         '
         Me.lblA.AutoSize = True
-        Me.lblA.Location = New System.Drawing.Point(173, 135)
+        Me.lblA.Location = New System.Drawing.Point(226, 108)
         Me.lblA.Name = "lblA"
         Me.lblA.Size = New System.Drawing.Size(17, 13)
         Me.lblA.TabIndex = 7
@@ -105,7 +102,7 @@ Partial Class Form1
         '
         Me.cbxvol1.FormattingEnabled = True
         Me.cbxvol1.Items.AddRange(New Object() {"Litro", "Mililitro", "Pie cubico", "Pulgada Cubica", "Onza liquida imperial", "Metro cubico", "Galon imperial", "Cuarto estadounidense", "Taza imperial", "Cucharada estadounidense"})
-        Me.cbxvol1.Location = New System.Drawing.Point(457, 126)
+        Me.cbxvol1.Location = New System.Drawing.Point(457, 35)
         Me.cbxvol1.Name = "cbxvol1"
         Me.cbxvol1.Size = New System.Drawing.Size(121, 21)
         Me.cbxvol1.TabIndex = 8
@@ -115,7 +112,7 @@ Partial Class Form1
         '
         Me.cbxVol2.FormattingEnabled = True
         Me.cbxVol2.Items.AddRange(New Object() {"Litro", "Mililitro", "Pie cubico", "Pulgada Cubica", "Onza liquida imperial", "Metro cubico", "Galon imperial", "Cuarto estadounidense", "Taza imperial", "Cucharada estadounidense"})
-        Me.cbxVol2.Location = New System.Drawing.Point(457, 186)
+        Me.cbxVol2.Location = New System.Drawing.Point(457, 94)
         Me.cbxVol2.Name = "cbxVol2"
         Me.cbxVol2.Size = New System.Drawing.Size(121, 21)
         Me.cbxVol2.TabIndex = 9
@@ -131,7 +128,7 @@ Partial Class Form1
         '
         'lblu
         '
-        Me.lblu.Location = New System.Drawing.Point(478, 293)
+        Me.lblu.Location = New System.Drawing.Point(497, 293)
         Me.lblu.Name = "lblu"
         Me.lblu.Size = New System.Drawing.Size(100, 23)
         Me.lblu.TabIndex = 11
@@ -139,8 +136,8 @@ Partial Class Form1
         'cbxtiem1
         '
         Me.cbxtiem1.FormattingEnabled = True
-        Me.cbxtiem1.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto"})
-        Me.cbxtiem1.Location = New System.Drawing.Point(310, 126)
+        Me.cbxtiem1.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto", "Hora", "Dia", "Semana", "Decada", "Año natural"})
+        Me.cbxtiem1.Location = New System.Drawing.Point(310, 35)
         Me.cbxtiem1.Name = "cbxtiem1"
         Me.cbxtiem1.Size = New System.Drawing.Size(121, 21)
         Me.cbxtiem1.TabIndex = 12
@@ -149,8 +146,8 @@ Partial Class Form1
         'cbxtiem2
         '
         Me.cbxtiem2.FormattingEnabled = True
-        Me.cbxtiem2.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto"})
-        Me.cbxtiem2.Location = New System.Drawing.Point(310, 186)
+        Me.cbxtiem2.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto", "Hora", "Dia", "Semana", "Decada", "Año natural"})
+        Me.cbxtiem2.Location = New System.Drawing.Point(310, 94)
         Me.cbxtiem2.Name = "cbxtiem2"
         Me.cbxtiem2.Size = New System.Drawing.Size(121, 21)
         Me.cbxtiem2.TabIndex = 13

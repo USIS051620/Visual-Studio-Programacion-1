@@ -325,249 +325,453 @@
             'VOLUMEN
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 1000
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 / 28.317
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 61.024
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 * 35.195
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 / 1000
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 / 4.546
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1 * 1.057
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 * 3.52
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 67.628
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Litro" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 / 1000
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 / 28317
+            lblu.Text = "In3"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 / 28.413
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Metro Cubico" Then
             lblr.Text = num1 / 1000000.0
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 / 16.387
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 / 4546
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1 / 946
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 / 284
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Mililitro" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 / 14.787
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 * 28.317
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 28317
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 1728
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 * 996.614
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 / 35.315
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 * 24.9153
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1 * 29.922
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 1915.01
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Pie cubico" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 * 99.6614
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 / 61.024
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 16.3871
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 / 1728
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 / 1.734
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 / 61024
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 / 277
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1 / 57.75
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 / 17.339
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Pulgada Cubica" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 1.10823
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 * 0.0284131
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 28.413
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 / 997
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 1.734
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 / 35195
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 / 160
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1 / 33.307
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 / 10
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 1.92152
-        ElseIf cbxvol1.Text = "Onza liquida imperial" And cbxVol2.Text = "Cucharada estadounidense" Then
-            lblr.Text = num1 * 1.92152
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 * 1000
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 1000000.0
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 * 35.3147
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 61023.7
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 * 35195.1
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 * 219.969
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1 * 1056.69
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 * 3519.51
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Metro cubico" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 67628
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 * 4.54609
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 454609
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 * 0.160544
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 277.419
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 * 160
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 * 0.004546609
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1 * 4.8038
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 * 16
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Galon imperial" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 307.443
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 * 0.946343
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 946.353
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 * 0.0334201
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 57.75
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 * 33.307
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 * 0.000946353
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 * 0.208169
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Cuarto estadounidense" Then
             lblr.Text = num1
+            lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 * 3.3307
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Cuarto estadounidense" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 64
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 * 0.284131
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 284.131
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 * 0.010034
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 17.3387
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 * 10
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 * 0.000284131
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 * 0.0625
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Cuarto estadounidense" Then
-            lblr.Text = num1 * 0.300237
+            lblr.Text = num1 * 0.300237 \
+                 lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Taza imperial" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1 * 19.2152
+            lblu.Text = "Cda"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Litro" Then
             lblr.Text = num1 * 0.0147868
+            lblu.Text = "l"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Mililitro" Then
             lblr.Text = num1 * 14.7868
+            lblu.Text = "ml"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Pie cubico" Then
             lblr.Text = num1 * 0.00052219
+            lblu.Text = "ft3"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Pulgada Cubica" Then
             lblr.Text = num1 * 0.902344
+            lblu.Text = "in3"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Onza liquida imperial" Then
             lblr.Text = num1 * 0.520421
+            lblu.Text = "oz"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Metro cubico" Then
             lblr.Text = num1 / 67628
+            lblu.Text = "m3"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Galon imperial" Then
             lblr.Text = num1 * 0.00325263
+            lblu.Text = "gl"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Cuarto estadounidense" Then
-            lblr.Text = num1 * 0.015625
+            lblr.Text = num1 *
+                 lblu.Text = "qt"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Taza imperial" Then
             lblr.Text = num1 * 0.0520421
+            lblu.Text = "Tz"
         ElseIf cbxvol1.Text = "Cucharada estadounidense" And cbxVol2.Text = "Cucharada estadounidense" Then
             lblr.Text = num1
+            lblu.Text = "Cda"
 
             'TIEMPO
         ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Microsegundo" Then
             lblr.Text = num1 * 0.001
+            lblu.Text = "Ms"
         ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Milisegundo" Then
             lblr.Text = num1 / 1000000.0
+            lblu.Text = "Ks"
         ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Segundo" Then
             lblr.Text = num1 / 1000000000.0
+            lblu.Text = "S"
         ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Minuto" Then
             lblr.Text = num1 / 60000000000.0
+            lblu.Text = "min"
         ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Nanosegundo" Then
             lblr.Text = num1
+            lblu.Text = "Gs"
+        ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 / 0.00000000000027778
+            lblu.Text = "h"
+        ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 / 0.000000000000011574
+            lblu.Text = "Dia"
+        ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 / 0.0000000000000016534
+            lblu.Text = "Semana"
+        ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 / 3.171E-18
+            lblu.Text = "Decada"
+        ElseIf cbxtiem1.Text = "Nanosegundo" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 / 3.17E-17
+            lblu.Text = "An"
         ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Nanosegundo" Then
             lblr.Text = num1 * 1000
+            lblu.Text = "Gs"
         ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Microsegundo" Then
             lblr.Text = num1
+            lblu.Text = "Ms"
         ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Milisegundo" Then
             lblr.Text = num1 * 0.001
+            lblu.Text = "Ks"
         ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Segundo" Then
             lblr.Text = num1 / 1000000.0
+            lblu.Text = "S"
         ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Minuto" Then
             lblr.Text = num1 / 60000000.0
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 / 3600000000.0
+            lblu.Text = "h"
+        ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 / 86400000000.0
+            lblu.Text = "Dia"
+        ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 / 604800000000.0
+            lblu.Text = "Seamana"
+        ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 / 315400000000000.0
+            lblu.Text = "Decada"
+        ElseIf cbxtiem1.Text = "Microsegundo" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 / 31000000000000.0
+            lblu.Text = "An"
         ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Nanosegundo" Then
             lblr.Text = num1 * 1000000.0
+            lblu.Text = "Gs"
         ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Microsegundo" Then
             lblr.Text = num1 * 1000
+            lblu.Text = "Ms"
         ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Milisegundo" Then
             lblr.Text = num1
+            lblu.Text = "Ks"
         ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Segundo" Then
             lblr.Text = num1 * 0.001
+            lblu.Text = "S"
         ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Minuto" Then
             lblr.Text = num1 * 0.000016667
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 / 3600000.0
+            lblu.Text = "h"
+        ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 / 86400000.0
+            lblu.Text = "Dia"
+        ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 / 604800000.0
+            lblu.Text = "Semana"
+        ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Deacada" Then
+            lblr.Text = num1 / 315400000000.0
+            lblu.Text = "Deacada"
+        ElseIf cbxtiem1.Text = "Milisegundo" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 / 31540000000.0
+            lblu.Text = "AN"
         ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Nanosegundo" Then
             lblr.Text = num1 * 1000000000.0
+            lblu.Text = "Gs"
         ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Microsegundo" Then
             lblr.Text = num1 * 1000000.0
+            lblu.Text = "Ms"
         ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Milisegundo" Then
             lblr.Text = num1 * 1000
+            lblu.Text = "Ks"
         ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Segundo" Then
             lblr.Text = num1
+            lblu.Text = "S"
         ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Minuto" Then
             lblr.Text = num1 / 60
-
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 / 86400
+            lblu.Text = "Dia"
+        ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 / 604800
+            lblu.Text = "Semana"
+        ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 / 315400000.0
+            lblu.Text = "Decada"
+        ElseIf cbxtiem1.Text = "Segundo" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 / 31540000.0
+            lblu.Text = "AN"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Nanosegundo" Then
+            lblr.Text = num1 * 60000000000.0
+            lblu.Text = "Gs"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Microsegundo" Then
+            lblr.Text = num1 * 60000000.0
+            lblu.Text = "Ms"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Milisegundo" Then
+            lblr.Text = num1 * 60000
+            lblu.Text = "Ks"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Segundo" Then
+            lblr.Text = num1 * 60
+            lblu.Text = "S"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Minuto" Then
+            lblr.Text = num1
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 / 60
+            lblu.Text = "h"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 * 0.000694444
+            lblu.Text = "Dia"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 * 0.000099206
+            lblu.Text = "Semana"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 * 0.00000019026
+            lblu.Text = "Decada"
+        ElseIf cbxtiem1.Text = "Minuto" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 * 0.0000019026
+            lblu.Text = "AN"
 
 
 
