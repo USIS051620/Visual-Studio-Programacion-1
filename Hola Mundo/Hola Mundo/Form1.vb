@@ -773,8 +773,452 @@
             lblr.Text = num1 * 0.0000019026
             lblu.Text = "AN"
 
+            'LONGITUD 
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 100
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1 * 1000
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 / 1609
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 * 1.094
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 * 3.281
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 * 39.37
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 / 1000
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 1000000000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Metro" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 1000000.0
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 / 100
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Milimetros" Then
+            lblr.Text = num1 * 10
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 / 160934
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 / 91.44
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 / 30.48
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 / 2.54
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 * 100000
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 10000000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Centimetro" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 10000
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 / 1000
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 / 10
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 / 1609000.0
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 / 914
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 / 305
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 / 25.4
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 / 1000000.0
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 1000000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Milimetro" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 1000
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 * 1604.34
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 160934
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1 * 1609000.0
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 * 1760
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 * 5280
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 * 63360
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 * 1.60934
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 1609000000000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Milla" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 1609000000.0
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 * 0.9144
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 91.44
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1 * 914.4
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 * 0.000568182
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 * 3
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 * 36
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 * 0.0009144
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 914400000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Yarda" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 914400
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 * 0.3048
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 3048
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1 * 304.8
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 * 0.000189394
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 / 3
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 * 12
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 * 0.0003048
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 304800000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Pie" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 304800
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 * 0.0254
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 2.54
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Miliimetro" Then
+            lblr.Text = num1 * 25.4
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 * 0.000015783
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 * 0.0277778
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 * 0.0833333
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 * 0.0000254
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 25400000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Pulgada" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 25400
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 * 1000
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 100000
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1 * 1000000.0
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 * 0.621371
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 * 1093.61
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 * 3280.84
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 * 39370.1
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 1000000000000.0
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Kilometro" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 1000000000.0
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 * 0.000000001
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 0.0000001
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1 * 0.000001
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 * 0.00000000000062137
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 * 0.0000000010936
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 * 0.0000000032808
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 * 0.00000003937
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 * 0.000000000001
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Nanometro" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1 * 0.001
+            lblu.Text = "µm"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Metro" Then
+            lblr.Text = num1 * 0.000001
+            lblu.Text = "m"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Centimetro" Then
+            lblr.Text = num1 * 0.0001
+            lblu.Text = "cm"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Milimetro" Then
+            lblr.Text = num1 * 0.001
+            lblu.Text = "mm"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Milla" Then
+            lblr.Text = num1 * 0.00000000062137
+            lblu.Text = "mi"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Yarda" Then
+            lblr.Text = num1 * 0.0000010936
+            lblu.Text = "yd"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Pie" Then
+            lblr.Text = num1 * 0.000016404
+            lblu.Text = "ft"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Pulgada" Then
+            lblr.Text = num1 * 0.00003937
+            lblu.Text = "in"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Kilometro" Then
+            lblr.Text = num1 * 0.000000001
+            lblu.Text = "km"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Nanometro" Then
+            lblr.Text = num1 * 1000
+            lblu.Text = "nm"
+        ElseIf cbxuni1.Text = "Micrometro" And cbxuni2.Text = "Micrometro" Then
+            lblr.Text = num1
+            lblu.Text = "µm"
 
-
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Nanosegundo" Then
+            lblr.Text = num1 * 3600000000000.0
+            lblu.Text = "Gs"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Microsegundo" Then
+            lblr.Text = num1 * 3600000000.0
+            lblu.Text = "Ms"
+        ElseIf cbxtiem1.Text = "Hora" And cbxuni2.Text = "Milisegundo" Then
+            lblr.Text = num1 * 3600000.0
+            lblu.Text = "ks"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Segundo" Then
+            lblr.Text = num1 * 3600
+            lblu.Text = "s"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Minuto" Then
+            lblr.Text = num1 * 60
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1
+            lblu.Text = "H"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 * 0.0416667
+            lblu.Text = "dia"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 * 0.00595238
+            lblu.Text = "semana"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 * 0.000011416
+            lblu.Text = "decada"
+        ElseIf cbxtiem1.Text = "Hora" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 * 0.000114155
+            lblu.Text = "AN"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Nanosegundo" Then
+            lblr.Text = num1 * 85400000000000.0
+            lblu.Text = "Gs"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Microsegundo" Then
+            lblr.Text = num1 * 86400000000.0
+            lblu.Text = "Ms"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Milisegundo" Then
+            lblr.Text = num1 * 86400000.0
+            lblu.Text = "ks"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Segundo" Then
+            lblr.Text = num1 * 86400
+            lblu.Text = "s"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Minuto" Then
+            lblr.Text = num1 * 1440
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 * 1440
+            lblu.Text = "h"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1
+            lblu.Text = "dia"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 / 7
+            lblu.Text = "semana"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 * 0.000273973
+            lblu.Text = "decada"
+        ElseIf cbxtiem1.Text = "Dia" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 / 365
+            lblu.Text = "AN"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Nanosegundo" Then
+            lblr.Text = num1 * 604800000000000.0
+            lblu.Text = "Gs"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Microsegundo" Then
+            lblr.Text = num1 * 604800000000.0
+            lblu.Text = "Ms"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Milisegundo" Then
+            lblr.Text = num1 * 604800000.0
+            lblu.Text = "ks"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Segundo" Then
+            lblr.Text = num1 * 604800
+            lblu.Text = "S"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Minuto" Then
+            lblr.Text = num1 * 10080
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 * 7
+            lblu.Text = "Dia"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 * 168
+            lblu.Text = "H"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1
+            lblu.Text = "semana"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 * 0.00191781
+            lblu.Text = "decada"
+        ElseIf cbxtiem1.Text = "Semana" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 * 0.0191781
+            lblu.Text = "AN"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Nanosegundo" Then
+            lblr.Text = num1 * 3.15E+17
+            lblu.Text = "Gs"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Microsegundo" Then
+            lblr.Text = num1 * 315400000000000.0
+            lblu.Text = "Ms"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Milisegundo" Then
+            lblr.Text = num1 * 315400000000.0
+            lblu.Text = "ks"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Segundo" Then
+            lblr.Text = num1 * 315400000.0
+            lblu.Text = "S"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Minuto" Then
+            lblr.Text = num1 * 5256000.0
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 * 87600
+            lblu.Text = "H"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 * 3650
+            lblu.Text = "dia"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 * 521.429
+            lblu.Text = "semana"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Decada " Then
+            lblr.Text = num1
+            lblu.Text = "decasa"
+        ElseIf cbxtiem1.Text = "Decada" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1 * 10
+            lblu.Text = "AN"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Nanosegundo" Then
+            lblr.Text = num1 * 3.154E+16
+            lblu.Text = "Gs"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Microsegundo" Then
+            lblr.Text = num1 * 31540000000000.0
+            lblu.Text = "Ms"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Milisegundo" Then
+            lblr.Text = num1 * 31540000000.0
+            lblu.Text = "ks"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Segundo" Then
+            lblr.Text = num1 * 31540000.0
+            lblu.Text = "S"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxuni2.Text = "Minuto" Then
+            lblr.Text = num1 * 525600
+            lblu.Text = "min"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Hora" Then
+            lblr.Text = num1 * 8760
+            lblu.Text = "H"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Dia" Then
+            lblr.Text = num1 * 365
+            lblu.Text = "dia"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Semana" Then
+            lblr.Text = num1 * 52.1429
+            lblu.Text = "semana"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Decada" Then
+            lblr.Text = num1 * 0.1
+            lblu.Text = "decada"
+        ElseIf cbxtiem1.Text = "Año natural" And cbxtiem2.Text = "Año natural" Then
+            lblr.Text = num1
+            lblu.Text = "AN"
         End If
 
     End Sub
