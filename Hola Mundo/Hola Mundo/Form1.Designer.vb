@@ -35,6 +35,10 @@ Partial Class Form1
         Me.lblu = New System.Windows.Forms.Label()
         Me.cbxtiem1 = New System.Windows.Forms.ComboBox()
         Me.cbxtiem2 = New System.Windows.Forms.ComboBox()
+        Me.cbxmonedas = New System.Windows.Forms.ComboBox()
+        Me.cbxmonedas1 = New System.Windows.Forms.ComboBox()
+        Me.cbxmasa = New System.Windows.Forms.ComboBox()
+        Me.cbxmasa1 = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'btnConvertir
@@ -49,7 +53,7 @@ Partial Class Form1
         'cbxEntrada
         '
         Me.cbxEntrada.Items.AddRange(New Object() {"Bits", "Bytes", "Gigabits", "Gigabytes", "Kilobits", "Kilobytes", "Megabits", "Megabytes", "Petabits", "Petabytes"})
-        Me.cbxEntrada.Location = New System.Drawing.Point(595, 38)
+        Me.cbxEntrada.Location = New System.Drawing.Point(483, 35)
         Me.cbxEntrada.Name = "cbxEntrada"
         Me.cbxEntrada.Size = New System.Drawing.Size(132, 21)
         Me.cbxEntrada.TabIndex = 1
@@ -59,7 +63,7 @@ Partial Class Form1
         '
         Me.cbxSalida.FormattingEnabled = True
         Me.cbxSalida.Items.AddRange(New Object() {"Bits", "Bytes", "Gigabits", "Gigabytes", "Kilobits", "Kilobytes", "Megabits", "Megabytes", "Petabits", "Petabytes"})
-        Me.cbxSalida.Location = New System.Drawing.Point(595, 94)
+        Me.cbxSalida.Location = New System.Drawing.Point(481, 74)
         Me.cbxSalida.Name = "cbxSalida"
         Me.cbxSalida.Size = New System.Drawing.Size(132, 21)
         Me.cbxSalida.TabIndex = 2
@@ -83,7 +87,7 @@ Partial Class Form1
         'lblDe
         '
         Me.lblDe.AutoSize = True
-        Me.lblDe.Location = New System.Drawing.Point(219, 38)
+        Me.lblDe.Location = New System.Drawing.Point(204, 38)
         Me.lblDe.Name = "lblDe"
         Me.lblDe.Size = New System.Drawing.Size(24, 13)
         Me.lblDe.TabIndex = 6
@@ -92,7 +96,7 @@ Partial Class Form1
         'lblA
         '
         Me.lblA.AutoSize = True
-        Me.lblA.Location = New System.Drawing.Point(226, 108)
+        Me.lblA.Location = New System.Drawing.Point(204, 78)
         Me.lblA.Name = "lblA"
         Me.lblA.Size = New System.Drawing.Size(17, 13)
         Me.lblA.TabIndex = 7
@@ -102,7 +106,7 @@ Partial Class Form1
         '
         Me.cbxvol1.FormattingEnabled = True
         Me.cbxvol1.Items.AddRange(New Object() {"Litro", "Mililitro", "Pie cubico", "Pulgada Cubica", "Onza liquida imperial", "Metro cubico", "Galon imperial", "Cuarto estadounidense", "Taza imperial", "Cucharada estadounidense"})
-        Me.cbxvol1.Location = New System.Drawing.Point(457, 35)
+        Me.cbxvol1.Location = New System.Drawing.Point(356, 35)
         Me.cbxvol1.Name = "cbxvol1"
         Me.cbxvol1.Size = New System.Drawing.Size(121, 21)
         Me.cbxvol1.TabIndex = 8
@@ -112,7 +116,7 @@ Partial Class Form1
         '
         Me.cbxVol2.FormattingEnabled = True
         Me.cbxVol2.Items.AddRange(New Object() {"Litro", "Mililitro", "Pie cubico", "Pulgada Cubica", "Onza liquida imperial", "Metro cubico", "Galon imperial", "Cuarto estadounidense", "Taza imperial", "Cucharada estadounidense"})
-        Me.cbxVol2.Location = New System.Drawing.Point(457, 94)
+        Me.cbxVol2.Location = New System.Drawing.Point(354, 74)
         Me.cbxVol2.Name = "cbxVol2"
         Me.cbxVol2.Size = New System.Drawing.Size(121, 21)
         Me.cbxVol2.TabIndex = 9
@@ -137,7 +141,7 @@ Partial Class Form1
         '
         Me.cbxtiem1.FormattingEnabled = True
         Me.cbxtiem1.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto", "Hora", "Dia", "Semana", "Decada", "Año natural"})
-        Me.cbxtiem1.Location = New System.Drawing.Point(310, 35)
+        Me.cbxtiem1.Location = New System.Drawing.Point(229, 35)
         Me.cbxtiem1.Name = "cbxtiem1"
         Me.cbxtiem1.Size = New System.Drawing.Size(121, 21)
         Me.cbxtiem1.TabIndex = 12
@@ -147,16 +151,58 @@ Partial Class Form1
         '
         Me.cbxtiem2.FormattingEnabled = True
         Me.cbxtiem2.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto", "Hora", "Dia", "Semana", "Decada", "Año natural"})
-        Me.cbxtiem2.Location = New System.Drawing.Point(310, 94)
+        Me.cbxtiem2.Location = New System.Drawing.Point(227, 74)
         Me.cbxtiem2.Name = "cbxtiem2"
         Me.cbxtiem2.Size = New System.Drawing.Size(121, 21)
         Me.cbxtiem2.TabIndex = 13
+        '
+        'cbxmonedas
+        '
+        Me.cbxmonedas.FormattingEnabled = True
+        Me.cbxmonedas.Items.AddRange(New Object() {"Dolar estadounidense", "Euro", "Yen", "Lempira", "Cordoba nicaraguense", "Quetzal", "Balboa", "Peso mexicano", "Libra esterlina", "Bolivar venezolano"})
+        Me.cbxmonedas.Location = New System.Drawing.Point(621, 35)
+        Me.cbxmonedas.Name = "cbxmonedas"
+        Me.cbxmonedas.Size = New System.Drawing.Size(121, 21)
+        Me.cbxmonedas.TabIndex = 14
+        Me.cbxmonedas.Text = "Monedas"
+        '
+        'cbxmonedas1
+        '
+        Me.cbxmonedas1.FormattingEnabled = True
+        Me.cbxmonedas1.Items.AddRange(New Object() {"Dolar estadounidense", "Euro", "Yen", "Lempira", "Cordoba nicaraguense", "Quetzal", "Balboa", "Peso mexicano", "Libra esterlina", "Bolivar venezolano"})
+        Me.cbxmonedas1.Location = New System.Drawing.Point(621, 73)
+        Me.cbxmonedas1.Name = "cbxmonedas1"
+        Me.cbxmonedas1.Size = New System.Drawing.Size(121, 21)
+        Me.cbxmonedas1.TabIndex = 15
+        '
+        'cbxmasa
+        '
+        Me.cbxmasa.FormattingEnabled = True
+        Me.cbxmasa.Items.AddRange(New Object() {"Kilogramos", "Hectogramos", "Decagramos", "Gramos", "Decigramos", "Centigramos", "Miligramos", "Libras", "Onzas", "Quilates"})
+        Me.cbxmasa.Location = New System.Drawing.Point(748, 35)
+        Me.cbxmasa.Name = "cbxmasa"
+        Me.cbxmasa.Size = New System.Drawing.Size(121, 21)
+        Me.cbxmasa.TabIndex = 16
+        Me.cbxmasa.Text = "Masa"
+        '
+        'cbxmasa1
+        '
+        Me.cbxmasa1.FormattingEnabled = True
+        Me.cbxmasa1.Items.AddRange(New Object() {"Kilogramos", "Hectogramos", "Decagramos", "Gramos", "Decigramos", "Centigramos", "Miligramos", "Libras", "Onzas", "Quilates"})
+        Me.cbxmasa1.Location = New System.Drawing.Point(749, 73)
+        Me.cbxmasa1.Name = "cbxmasa1"
+        Me.cbxmasa1.Size = New System.Drawing.Size(121, 21)
+        Me.cbxmasa1.TabIndex = 17
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(739, 497)
+        Me.ClientSize = New System.Drawing.Size(895, 547)
+        Me.Controls.Add(Me.cbxmasa1)
+        Me.Controls.Add(Me.cbxmasa)
+        Me.Controls.Add(Me.cbxmonedas1)
+        Me.Controls.Add(Me.cbxmonedas)
         Me.Controls.Add(Me.cbxtiem2)
         Me.Controls.Add(Me.cbxtiem1)
         Me.Controls.Add(Me.lblu)
@@ -190,4 +236,8 @@ Partial Class Form1
     Friend WithEvents lblu As Label
     Friend WithEvents cbxtiem1 As ComboBox
     Friend WithEvents cbxtiem2 As ComboBox
+    Friend WithEvents cbxmonedas As ComboBox
+    Friend WithEvents cbxmonedas1 As ComboBox
+    Friend WithEvents cbxmasa As ComboBox
+    Friend WithEvents cbxmasa1 As ComboBox
 End Class

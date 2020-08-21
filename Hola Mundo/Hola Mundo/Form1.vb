@@ -773,11 +773,380 @@
             lblr.Text = num1 * 0.0000019026
             lblu.Text = "AN"
 
+            'Monedas
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.84
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 106.01
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 24.77
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 106.01
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 34.55
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 7.7
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 1.0
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 22.12
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.76
+        ElseIf cbxmonedas.Text = "Dolar estadounidense" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 283663.0
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 1.19
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 125.82
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 29.38
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 41.07
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 9.14
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 1.19
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 26.32
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.91
+        ElseIf cbxmonedas.Text = "Euro" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 336700.89
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 0.0094
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.0079
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 0.23
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 0.33
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 0.073
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 0.0094
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 0.21
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.0072
+        ElseIf cbxmonedas.Text = "Yen" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 2676.12
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 0.04
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.034
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 4.28
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 1.4
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 0.31
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 0.04
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 0.9
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.031
+        ElseIf cbxmonedas.Text = "Lempira" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 11458.79
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 0.029
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.024
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 3.06
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 0.72
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 0.22
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 0.029
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 0.64
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.022
+        ElseIf cbxmonedas.Text = "Cordoba nicaraguense" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 8198.35
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 0.13
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.11
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 13.77
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 3.22
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 4.5
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 0.13
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 2.88
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.099
+        ElseIf cbxmonedas.Text = "Quetzal" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 36871.14
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 1.0
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.84
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 106.05
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 24.77
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 34.61
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 7.7
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 22.19
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.76
+        ElseIf cbxmonedas.Text = "Balboa" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 283777.32
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 0.045
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.038
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 4.78
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 1.12
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 1.56
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 0.35
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 0.045
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.034
+        ElseIf cbxmonedas.Text = "Peso mexicano" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 12788.48
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 1.31
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 1.1
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 138.93
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 32.45
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 45.35
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 10.09
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 1.31
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 29.08
+        ElseIf cbxmonedas.Text = "Libra esterlina" And cbxmonedas1.Text = "Bolivar venezolano" Then
+            lblr.Text = num1 * 371797.38
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Dolar estadounidense" Then
+            lblr.Text = num1 * 0.0000035
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Euro" Then
+            lblr.Text = num1 * 0.000003
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Yen" Then
+            lblr.Text = num1 * 0.00037
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Lempira" Then
+            lblr.Text = num1 * 0.000087
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Cordoba nicaraguense" Then
+            lblr.Text = num1 * 0.00012
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Quetzal" Then
+            lblr.Text = num1 * 0.000027
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Balboa" Then
+            lblr.Text = num1 * 0.0000035
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Peso mexicano" Then
+            lblr.Text = num1 * 0.000078
+        ElseIf cbxmonedas.Text = "Bolivar venezolano" And cbxmonedas1.Text = "Libra esterlina" Then
+            lblr.Text = num1 * 0.0000027
+
+            'Masa
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 * 10
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 * 100
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 * 1000
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 * 10000
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 100000
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 1000000.0
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 * 2.205
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 * 35.274
+        ElseIf cbxmasa.Text = "Kilogramos" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 * 5000
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 / 10
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 * 10
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 * 100
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 * 1000
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 10000
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 100000
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 4.536
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 * 3.527
+        ElseIf cbxmasa.Text = "Hectogramos" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 * 500
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 / 100
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 / 10
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 * 10
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 * 100
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 1000
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 10000
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 45.359
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 / 2.835
+        ElseIf cbxmasa.Text = "Decagramos" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 * 50
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 * 1000
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 / 100
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 / 10
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 * 10
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 100
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 1000
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 454
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 / 28.35
+        ElseIf cbxmasa.Text = "Gramos" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 * 5
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 * 10000
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 / 1000
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 / 100
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 / 10
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 10
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 100
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 4536
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 / 283
+        ElseIf cbxmasa.Text = "Decigramos" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 / 2
+        ElseIf cbxmasa.Text = "Centigramos" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 * 100000
+        ElseIf cbxmasa.Text = "Centigramos" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 / 10000
+        ElseIf cbxmasa.Text = "Centigramos" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 / 1000
+        ElseIf cbxmasa.Text = "Centigramos" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 / 100
+        ElseIf cbxmasa.Text = "Centigramos" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 / 10
+        ElseIf cbxmasa.Text = "Centigramos" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 10
+        ElseIf cbxmasa.Text = "Centimetro" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 45359
+        ElseIf cbxmasa.Text = "Centimetro" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 / 2835
+        ElseIf cbxmasa.Text = "Centimetro" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 / 20
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 / 1000000.0
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 / 100000
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 / 10000
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 / 1000
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 / 100
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 / 10
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 453592
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 / 28350
+        ElseIf cbxmasa.Text = "Miligramos" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 / 200
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 / 2.205
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 * 4.536
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 * 45.359
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 / 454
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 * 4536
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 45359
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 453592
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 * 16
+        ElseIf cbxmasa.Text = "Libras" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 * 2268
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 / 35.274
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 / 3.527
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 / 35.274
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 * 2.835
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 * 28.35
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 * 283
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 2835
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 28350
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 16
+        ElseIf cbxmasa.Text = "Onzas" And cbxmasa1.Text = "Quilates" Then
+            lblr.Text = num1 * 142
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Kilogramos" Then
+            lblr.Text = num1 / 5000
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Hectogramos" Then
+            lblr.Text = num1 / 500
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Decagramos" Then
+            lblr.Text = num1 / 50
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Gramos" Then
+            lblr.Text = num1 / 5
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Decigramos" Then
+            lblr.Text = num1 * 2
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Centigramos" Then
+            lblr.Text = num1 * 20
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Miligramos" Then
+            lblr.Text = num1 * 200
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Libras" Then
+            lblr.Text = num1 / 2268
+        ElseIf cbxmasa.Text = "Quilates" And cbxmasa1.Text = "Onzas" Then
+            lblr.Text = num1 / 142
 
 
-        End If
+                End If
 
     End Sub
 
+    Private Sub cbxvol1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cbxvol1.SelectedIndexChanged
 
+    End Sub
 End Class
