@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,213 +20,186 @@ Partial Class Form1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnConvertir = New System.Windows.Forms.Button()
-        Me.cbxEntrada = New System.Windows.Forms.ComboBox()
-        Me.cbxSalida = New System.Windows.Forms.ComboBox()
-        Me.lblvalor = New System.Windows.Forms.Label()
-        Me.txtvalor = New System.Windows.Forms.TextBox()
-        Me.lblDe = New System.Windows.Forms.Label()
-        Me.lblA = New System.Windows.Forms.Label()
-        Me.cbxvol1 = New System.Windows.Forms.ComboBox()
-        Me.cbxVol2 = New System.Windows.Forms.ComboBox()
-        Me.lblr = New System.Windows.Forms.Label()
-        Me.lblu = New System.Windows.Forms.Label()
-        Me.cbxtiem1 = New System.Windows.Forms.ComboBox()
-        Me.cbxtiem2 = New System.Windows.Forms.ComboBox()
-        Me.cbxuni1 = New System.Windows.Forms.ComboBox()
-        Me.cbxuni2 = New System.Windows.Forms.ComboBox()
+        Me.btnCalcular = New System.Windows.Forms.Button()
+        Me.lblnum1 = New System.Windows.Forms.Label()
+        Me.txtnum1 = New System.Windows.Forms.TextBox()
+        Me.optSuma = New System.Windows.Forms.RadioButton()
+        Me.optResta = New System.Windows.Forms.RadioButton()
+        Me.optMultiplicacion = New System.Windows.Forms.RadioButton()
+        Me.optDivision = New System.Windows.Forms.RadioButton()
+        Me.optPorcentaje = New System.Windows.Forms.RadioButton()
+        Me.optPotenciacion = New System.Windows.Forms.RadioButton()
+        Me.lblnum2 = New System.Windows.Forms.Label()
+        Me.txtnum2 = New System.Windows.Forms.TextBox()
+        Me.lblrespuesta = New System.Windows.Forms.Label()
+        Me.optMod = New System.Windows.Forms.RadioButton()
         Me.SuspendLayout()
         '
-        'btnConvertir
+        'btnCalcular
         '
-        Me.btnConvertir.Location = New System.Drawing.Point(224, 348)
-        Me.btnConvertir.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.btnConvertir.Name = "btnConvertir"
-        Me.btnConvertir.Size = New System.Drawing.Size(100, 28)
-        Me.btnConvertir.TabIndex = 0
-        Me.btnConvertir.Text = "Convertir"
-        Me.btnConvertir.UseVisualStyleBackColor = True
+        Me.btnCalcular.Location = New System.Drawing.Point(198, 263)
+        Me.btnCalcular.Name = "btnCalcular"
+        Me.btnCalcular.Size = New System.Drawing.Size(90, 23)
+        Me.btnCalcular.TabIndex = 0
+        Me.btnCalcular.Text = "Calcular"
+        Me.btnCalcular.UseVisualStyleBackColor = True
         '
-        'cbxEntrada
+        'lblnum1
         '
-        Me.cbxEntrada.Items.AddRange(New Object() {"Bits", "Bytes", "Gigabits", "Gigabytes", "Kilobits", "Kilobytes", "Megabits", "Megabytes", "Petabits", "Petabytes"})
-        Me.cbxEntrada.Location = New System.Drawing.Point(793, 47)
-        Me.cbxEntrada.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.cbxEntrada.Name = "cbxEntrada"
-        Me.cbxEntrada.Size = New System.Drawing.Size(175, 24)
-        Me.cbxEntrada.TabIndex = 1
-        Me.cbxEntrada.Text = "Almacenamiento"
+        Me.lblnum1.AutoSize = True
+        Me.lblnum1.Location = New System.Drawing.Point(59, 77)
+        Me.lblnum1.Name = "lblnum1"
+        Me.lblnum1.Size = New System.Drawing.Size(41, 13)
+        Me.lblnum1.TabIndex = 1
+        Me.lblnum1.Text = "Num 1:"
         '
-        'cbxSalida
+        'txtnum1
         '
-        Me.cbxSalida.FormattingEnabled = True
-        Me.cbxSalida.Items.AddRange(New Object() {"Bits", "Bytes", "Gigabits", "Gigabytes", "Kilobits", "Kilobytes", "Megabits", "Megabytes", "Petabits", "Petabytes"})
-        Me.cbxSalida.Location = New System.Drawing.Point(793, 116)
-        Me.cbxSalida.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.cbxSalida.Name = "cbxSalida"
-        Me.cbxSalida.Size = New System.Drawing.Size(175, 24)
-        Me.cbxSalida.TabIndex = 2
+        Me.txtnum1.Location = New System.Drawing.Point(104, 70)
+        Me.txtnum1.Name = "txtnum1"
+        Me.txtnum1.Size = New System.Drawing.Size(66, 20)
+        Me.txtnum1.TabIndex = 2
         '
-        'lblvalor
+        'optSuma
         '
-        Me.lblvalor.AutoSize = True
-        Me.lblvalor.Location = New System.Drawing.Point(39, 47)
-        Me.lblvalor.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblvalor.Name = "lblvalor"
-        Me.lblvalor.Size = New System.Drawing.Size(197, 17)
-        Me.lblvalor.TabIndex = 4
-        Me.lblvalor.Text = "Ingrese el numero a convertir:"
+        Me.optSuma.AutoSize = True
+        Me.optSuma.Location = New System.Drawing.Point(198, 71)
+        Me.optSuma.Name = "optSuma"
+        Me.optSuma.Size = New System.Drawing.Size(31, 17)
+        Me.optSuma.TabIndex = 3
+        Me.optSuma.TabStop = True
+        Me.optSuma.Text = "+"
+        Me.optSuma.UseVisualStyleBackColor = True
         '
-        'txtvalor
+        'optResta
         '
-        Me.txtvalor.Location = New System.Drawing.Point(43, 92)
-        Me.txtvalor.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.txtvalor.Name = "txtvalor"
-        Me.txtvalor.Size = New System.Drawing.Size(132, 22)
-        Me.txtvalor.TabIndex = 5
+        Me.optResta.AutoSize = True
+        Me.optResta.Location = New System.Drawing.Point(198, 98)
+        Me.optResta.Name = "optResta"
+        Me.optResta.Size = New System.Drawing.Size(28, 17)
+        Me.optResta.TabIndex = 4
+        Me.optResta.TabStop = True
+        Me.optResta.Text = "-"
+        Me.optResta.UseVisualStyleBackColor = True
         '
-        'lblDe
+        'optMultiplicacion
         '
-        Me.lblDe.AutoSize = True
-        Me.lblDe.Location = New System.Drawing.Point(292, 47)
-        Me.lblDe.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblDe.Name = "lblDe"
-        Me.lblDe.Size = New System.Drawing.Size(30, 17)
-        Me.lblDe.TabIndex = 6
-        Me.lblDe.Text = "De:"
+        Me.optMultiplicacion.AutoSize = True
+        Me.optMultiplicacion.Location = New System.Drawing.Point(198, 121)
+        Me.optMultiplicacion.Name = "optMultiplicacion"
+        Me.optMultiplicacion.Size = New System.Drawing.Size(29, 17)
+        Me.optMultiplicacion.TabIndex = 5
+        Me.optMultiplicacion.TabStop = True
+        Me.optMultiplicacion.Text = "*"
+        Me.optMultiplicacion.UseVisualStyleBackColor = True
         '
-        'lblA
+        'optDivision
         '
-        Me.lblA.AutoSize = True
-        Me.lblA.Location = New System.Drawing.Point(301, 133)
-        Me.lblA.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblA.Name = "lblA"
-        Me.lblA.Size = New System.Drawing.Size(21, 17)
-        Me.lblA.TabIndex = 7
-        Me.lblA.Text = "A:"
+        Me.optDivision.AutoSize = True
+        Me.optDivision.Location = New System.Drawing.Point(198, 144)
+        Me.optDivision.Name = "optDivision"
+        Me.optDivision.Size = New System.Drawing.Size(30, 17)
+        Me.optDivision.TabIndex = 6
+        Me.optDivision.TabStop = True
+        Me.optDivision.Text = "/"
+        Me.optDivision.UseVisualStyleBackColor = True
         '
-        'cbxvol1
+        'optPorcentaje
         '
-        Me.cbxvol1.FormattingEnabled = True
-        Me.cbxvol1.Items.AddRange(New Object() {"Litro", "Mililitro", "Pie cubico", "Pulgada Cubica", "Onza liquida imperial", "Metro cubico", "Galon imperial", "Cuarto estadounidense", "Taza imperial", "Cucharada estadounidense"})
-        Me.cbxvol1.Location = New System.Drawing.Point(609, 43)
-        Me.cbxvol1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.cbxvol1.Name = "cbxvol1"
-        Me.cbxvol1.Size = New System.Drawing.Size(160, 24)
-        Me.cbxvol1.TabIndex = 8
-        Me.cbxvol1.Text = "Volumen"
+        Me.optPorcentaje.AutoSize = True
+        Me.optPorcentaje.Location = New System.Drawing.Point(198, 167)
+        Me.optPorcentaje.Name = "optPorcentaje"
+        Me.optPorcentaje.Size = New System.Drawing.Size(76, 17)
+        Me.optPorcentaje.TabIndex = 7
+        Me.optPorcentaje.TabStop = True
+        Me.optPorcentaje.Text = "Porcentaje"
+        Me.optPorcentaje.UseVisualStyleBackColor = True
         '
-        'cbxVol2
+        'optPotenciacion
         '
-        Me.cbxVol2.FormattingEnabled = True
-        Me.cbxVol2.Items.AddRange(New Object() {"Litro", "Mililitro", "Pie cubico", "Pulgada Cubica", "Onza liquida imperial", "Metro cubico", "Galon imperial", "Cuarto estadounidense", "Taza imperial", "Cucharada estadounidense"})
-        Me.cbxVol2.Location = New System.Drawing.Point(609, 116)
-        Me.cbxVol2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.cbxVol2.Name = "cbxVol2"
-        Me.cbxVol2.Size = New System.Drawing.Size(160, 24)
-        Me.cbxVol2.TabIndex = 9
+        Me.optPotenciacion.AutoSize = True
+        Me.optPotenciacion.Location = New System.Drawing.Point(198, 190)
+        Me.optPotenciacion.Name = "optPotenciacion"
+        Me.optPotenciacion.Size = New System.Drawing.Size(31, 17)
+        Me.optPotenciacion.TabIndex = 8
+        Me.optPotenciacion.TabStop = True
+        Me.optPotenciacion.Text = "^"
+        Me.optPotenciacion.UseVisualStyleBackColor = True
         '
-        'lblr
+        'lblnum2
         '
-        Me.lblr.AutoSize = True
-        Me.lblr.Location = New System.Drawing.Point(409, 361)
-        Me.lblr.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblr.Name = "lblr"
-        Me.lblr.Size = New System.Drawing.Size(72, 17)
-        Me.lblr.TabIndex = 10
-        Me.lblr.Text = "Resultado"
+        Me.lblnum2.AutoSize = True
+        Me.lblnum2.Location = New System.Drawing.Point(247, 74)
+        Me.lblnum2.Name = "lblnum2"
+        Me.lblnum2.Size = New System.Drawing.Size(41, 13)
+        Me.lblnum2.TabIndex = 9
+        Me.lblnum2.Text = "Num 2:"
         '
-        'lblu
+        'txtnum2
         '
-        Me.lblu.Location = New System.Drawing.Point(663, 361)
-        Me.lblu.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.lblu.Name = "lblu"
-        Me.lblu.Size = New System.Drawing.Size(133, 28)
-        Me.lblu.TabIndex = 11
+        Me.txtnum2.Location = New System.Drawing.Point(294, 74)
+        Me.txtnum2.Name = "txtnum2"
+        Me.txtnum2.Size = New System.Drawing.Size(66, 20)
+        Me.txtnum2.TabIndex = 10
         '
-        'cbxtiem1
+        'lblrespuesta
         '
-        Me.cbxtiem1.FormattingEnabled = True
-        Me.cbxtiem1.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto", "Hora", "Dia", "Semana", "Decada", "Año natural"})
-        Me.cbxtiem1.Location = New System.Drawing.Point(413, 43)
-        Me.cbxtiem1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.cbxtiem1.Name = "cbxtiem1"
-        Me.cbxtiem1.Size = New System.Drawing.Size(160, 24)
-        Me.cbxtiem1.TabIndex = 12
-        Me.cbxtiem1.Text = "Tiempo"
+        Me.lblrespuesta.AutoSize = True
+        Me.lblrespuesta.Location = New System.Drawing.Point(383, 77)
+        Me.lblrespuesta.Name = "lblrespuesta"
+        Me.lblrespuesta.Size = New System.Drawing.Size(70, 13)
+        Me.lblrespuesta.TabIndex = 11
+        Me.lblrespuesta.Text = "Respuesta: ?"
         '
-        'cbxtiem2
+        'optMod
         '
-        Me.cbxtiem2.FormattingEnabled = True
-        Me.cbxtiem2.Items.AddRange(New Object() {"Nanosegundo", "Microsegundo", "Milisegundo", "Segundo", "Minuto", "Hora", "Dia", "Semana", "Decada", "Año natural"})
-        Me.cbxtiem2.Location = New System.Drawing.Point(413, 116)
-        Me.cbxtiem2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.cbxtiem2.Name = "cbxtiem2"
-        Me.cbxtiem2.Size = New System.Drawing.Size(160, 24)
-        Me.cbxtiem2.TabIndex = 13
-        '
-        'cbxuni1
-        '
-        Me.cbxuni1.FormattingEnabled = True
-        Me.cbxuni1.Items.AddRange(New Object() {"Metro", "Centimetro", "Milimetro", "Milla", "Yarda", "Pie", "Pulgada", "Kilometro", "Nanometro", "Micrometro"})
-        Me.cbxuni1.Location = New System.Drawing.Point(1046, 47)
-        Me.cbxuni1.Name = "cbxuni1"
-        Me.cbxuni1.Size = New System.Drawing.Size(151, 24)
-        Me.cbxuni1.TabIndex = 14
-        Me.cbxuni1.Text = "Longitud"
-        '
-        'cbxuni2
-        '
-        Me.cbxuni2.FormattingEnabled = True
-        Me.cbxuni2.Items.AddRange(New Object() {"Metro", "Centimetro", "Milimetro", "Milla", "Yarda", "Pie", "Pulgada", "Kilometro", "Nanometro", "Micrometro"})
-        Me.cbxuni2.Location = New System.Drawing.Point(1046, 114)
-        Me.cbxuni2.Name = "cbxuni2"
-        Me.cbxuni2.Size = New System.Drawing.Size(151, 24)
-        Me.cbxuni2.TabIndex = 15
+        Me.optMod.AutoSize = True
+        Me.optMod.Location = New System.Drawing.Point(198, 213)
+        Me.optMod.Name = "optMod"
+        Me.optMod.Size = New System.Drawing.Size(64, 17)
+        Me.optMod.TabIndex = 12
+        Me.optMod.TabStop = True
+        Me.optMod.Text = "Residuo"
+        Me.optMod.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1322, 612)
-        Me.Controls.Add(Me.cbxuni2)
-        Me.Controls.Add(Me.cbxuni1)
-        Me.Controls.Add(Me.cbxtiem2)
-        Me.Controls.Add(Me.cbxtiem1)
-        Me.Controls.Add(Me.lblu)
-        Me.Controls.Add(Me.lblr)
-        Me.Controls.Add(Me.cbxVol2)
-        Me.Controls.Add(Me.cbxvol1)
-        Me.Controls.Add(Me.lblA)
-        Me.Controls.Add(Me.lblDe)
-        Me.Controls.Add(Me.txtvalor)
-        Me.Controls.Add(Me.lblvalor)
-        Me.Controls.Add(Me.cbxSalida)
-        Me.Controls.Add(Me.cbxEntrada)
-        Me.Controls.Add(Me.btnConvertir)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.ClientSize = New System.Drawing.Size(649, 321)
+        Me.Controls.Add(Me.optMod)
+        Me.Controls.Add(Me.lblrespuesta)
+        Me.Controls.Add(Me.txtnum2)
+        Me.Controls.Add(Me.lblnum2)
+        Me.Controls.Add(Me.optPotenciacion)
+        Me.Controls.Add(Me.optPorcentaje)
+        Me.Controls.Add(Me.optDivision)
+        Me.Controls.Add(Me.optMultiplicacion)
+        Me.Controls.Add(Me.optResta)
+        Me.Controls.Add(Me.optSuma)
+        Me.Controls.Add(Me.txtnum1)
+        Me.Controls.Add(Me.lblnum1)
+        Me.Controls.Add(Me.btnCalcular)
         Me.Name = "Form1"
-        Me.Text = "Conversores"
+        Me.Text = "Calculadora basica"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents btnConvertir As Button
-    Friend WithEvents cbxEntrada As ComboBox
-    Friend WithEvents cbxSalida As ComboBox
-    Friend WithEvents lblvalor As Label
-    Friend WithEvents txtvalor As TextBox
-    Friend WithEvents lblDe As Label
-    Friend WithEvents lblA As Label
-    Friend WithEvents cbxvol1 As ComboBox
-    Friend WithEvents cbxVol2 As ComboBox
-    Friend WithEvents lblr As Label
-    Friend WithEvents lblu As Label
-    Friend WithEvents cbxtiem1 As ComboBox
-    Friend WithEvents cbxtiem2 As ComboBox
-    Friend WithEvents cbxuni1 As ComboBox
-    Friend WithEvents cbxuni2 As ComboBox
+    Friend WithEvents btnCalcular As Button
+    Friend WithEvents lblnum1 As Label
+    Friend WithEvents txtnum1 As TextBox
+    Friend WithEvents optSuma As RadioButton
+    Friend WithEvents optResta As RadioButton
+    Friend WithEvents optMultiplicacion As RadioButton
+    Friend WithEvents optDivision As RadioButton
+    Friend WithEvents optPorcentaje As RadioButton
+    Friend WithEvents optPotenciacion As RadioButton
+    Friend WithEvents lblnum2 As Label
+    Friend WithEvents txtnum2 As TextBox
+    Friend WithEvents lblrespuesta As Label
+    Friend WithEvents optMod As RadioButton
 End Class
