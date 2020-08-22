@@ -43,7 +43,7 @@ Partial Class Form1
         '
         'btnConvertir
         '
-        Me.btnConvertir.Location = New System.Drawing.Point(168, 283)
+        Me.btnConvertir.Location = New System.Drawing.Point(227, 140)
         Me.btnConvertir.Name = "btnConvertir"
         Me.btnConvertir.Size = New System.Drawing.Size(75, 23)
         Me.btnConvertir.TabIndex = 0
@@ -124,7 +124,7 @@ Partial Class Form1
         'lblr
         '
         Me.lblr.AutoSize = True
-        Me.lblr.Location = New System.Drawing.Point(307, 293)
+        Me.lblr.Location = New System.Drawing.Point(353, 145)
         Me.lblr.Name = "lblr"
         Me.lblr.Size = New System.Drawing.Size(55, 13)
         Me.lblr.TabIndex = 10
