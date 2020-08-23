@@ -43,7 +43,7 @@ Partial Class Form1
         '
         'btnConvertir
         '
-        Me.btnConvertir.Location = New System.Drawing.Point(437, 135)
+        Me.btnConvertir.Location = New System.Drawing.Point(313, 135)
         Me.btnConvertir.Name = "btnConvertir"
         Me.btnConvertir.Size = New System.Drawing.Size(75, 23)
         Me.btnConvertir.TabIndex = 0
