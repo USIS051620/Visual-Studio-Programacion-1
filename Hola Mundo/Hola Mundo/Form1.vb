@@ -73,7 +73,43 @@
             lblr.Text = num1
         ElseIf cbxde.Text = "Manzanas" And cbxa.Text = "Hectarea" Then
             lblr.Text = num1 * 0.7044
+        ElseIf cbxde.Text = "Pie cuadrado" And cbxa.Text = "Vara cuadrada" Then
+            lblr.Text = num1 / 0.09290304
+            ElseIf cbxde.Text = "Pie cuadrado" And cbxa.Text = "Yarda cuadrada" Then
+                lblr.Text = num1 / 9
+            ElseIf cbxde.Text = "Pie cuadrado" And cbxa.Text = "Metro cuadrado" Then
+                lblr.Text = num1 / 10.764
+            ElseIf cbxde.Text = "Pie cuadrado" And cbxa.Text = "Tareas" Then
+                lblr.Text = num1 / 628.8
+            ElseIf cbxde.Text = "Pie cuadrado" And cbxa.Text = "Manzanas" Then
+                lblr.Text = num1 * 100
+            ElseIf cbxde.Text = "Pie cuadrado" And cbxa.Text = "Hectarea" Then
+                lblr.Text = num1 / 107639
+            ElseIf cbxde.Text = "Vara cuadrada" And cbxa.Text = "Pie cuadrado" Then
+                lblr.Text = num1 * 7.52
+            ElseIf cbxde.Text = "Vara cuadrada" And cbxa.Text = "Yarda cuadrada" Then
+                lblr.Text = num1 / 0.09290304
+            ElseIf cbxde.Text = "Vara cuadrada" And cbxa.Text = "Metro cuadrado" Then
+                lblr.Text = num1 / 1
+            ElseIf cbxde.Text = "Vara cuadrada" And cbxa.Text = "Tareas" Then
+                lblr.Text = num1 * 7.52
+            ElseIf cbxde.Text = "Vara cuadrada" And cbxa.Text = "Manzanas" Then
+                lblr.Text = num1 * 0.698896
+            ElseIf cbxde.Text = "Vara cuadrada" And cbxa.Text = "Hectarea" Then
+                lblr.Text = num1 * 14285.71
+            ElseIf cbxde.Text = "Yarda cuadrada" And cbxa.Text = "Pie cuadrado" Then
+                lblr.Text = num1 * 9
+            ElseIf cbxde.Text = "Yarda cuadrada" And cbxa.Text = "Vara cuadrada" Then
+                lblr.Text = num1 / 0.09290304
+            ElseIf cbxde.Text = "Yarda cuadrada" And cbxa.Text = "Metro cuadrado" Then
+                lblr.Text = num1 / 1.196
+            ElseIf cbxde.Text = "Yarda cuadrada" And cbxa.Text = "Tareas" Then
+                lblr.Text = num1 / 628.8
+            ElseIf cbxde.Text = "Yarda cuadrada" And cbxa.Text = "Manzanas" Then
+                lblr.Text = num1 / 0.09290304
+            ElseIf cbxde.Text = "Yarda cuadrada" And cbxa.Text = "Hectarea" Then
+                lblr.Text = num1 / 11960
 
-        End If
+            End If
     End Sub
 End Class
