@@ -7,11 +7,13 @@
         posicion = 0
         obtenerDatos()
     End Sub
+
     Sub obtenerDatos()
         dataTable = objConexion.obtenerDatos().Tables("clientes")
-
+        dataTable.PrimaryKey = New DataColumn() {dataTable.Columns("idCliente")}
         mostrarDatos()
     End Sub
+
     Sub mostrarDatos()
         If dataTable.Rows.Count > 0 Then
             Me.Tag = dataTable.Rows(posicion).ItemArray(0).ToString() 'ID de Cliente
@@ -68,13 +70,15 @@
             Dim msg = objConexion.mantenimientoDatosCliente(New String() {
                 Me.Tag, txtCodigoCliente.Text, txtNombreCliente.Text, txtDireccionCliente.Text, txtTelefonoCliente.Text, txtEmailCliente.Text
             }, accion)
-
-            obtenerDatos()
-            HabDescontroles(True)
-            btnAgregarCliente.Text = "Nuevo"
-            btnModificarCliente.Text = "Modificar"
-
-            MessageBox.Show(msg, "Registro de Clientes", MessageBoxButtons.OK, MessageBoxIcon.Information)
+            If msg = "Error" Then
+                MessageBox.Show("Error al intentar guardar el regisrto, por favor intente nuevamente.", "Registro de Clientes",
+                                MessageBoxButtons.OK, MessageBoxIcon.Error)
+            Else
+                obtenerDatos()
+                HabDescontroles(True)
+                btnAgregarCliente.Text = "Nuevo"
+                btnModificarCliente.Text = "Modificar"
+            End If
         End If
     End Sub
 
@@ -109,13 +113,22 @@
     End Sub
 
     Private Sub btnEliminarCliente_Click(sender As Object, e As EventArgs) Handles btnEliminarCliente.Click
-        If (MessageBox.Show("Estas seguro de borrar a" + txtNombreCliente.Text, "Resgistro de cliente",
+        If (MessageBox.Show("Estas seguro de borrar a: " + txtNombreCliente.Text, "Resgistro de cliente",
                             MessageBoxButtons.YesNo, MessageBoxIcon.Question) = DialogResult.Yes) Then
             objConexion.mantenimientoDatosCliente(New String() {Me.Tag}, "eliminar")
             If posicion > 0 Then
                 posicion -= 1 'Hemos borrado un registro 
             End If
             obtenerDatos()
+        End If
+    End Sub
+
+    Private Sub btnBuscarCliente_Click(sender As Object, e As EventArgs) Handles btnBuscarCliente.Click
+        Dim objBuscarCliente As New frmBuscarClientes
+        objBuscarCliente.ShowDialog()
+        If objBuscarCliente._idC > 0 Then
+            posicion = dataTable.Rows.IndexOf(dataTable.Rows.Find(objBuscarCliente._idC))
+            mostrarDatos()
         End If
     End Sub
 End Class
